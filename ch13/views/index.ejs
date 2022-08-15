@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>EJS Template Engine</h1>
+
+    <h1>
+      Displaying Variable Data <%= name %>
+
+      <!-- Creating Variable -->
+      <!-- <% var i = 10;  %> -->
+
+      <!-- Displaying Variable Data -->
+      <!-- <%= i  %> -->
+
+      <!-- Comment -->
+      <!-- <%# Comment will not be present in the rendered HTML  %> -->
+
+      <!-- if  -->
+      <!-- <% if(name) { %>
+  Hello <%= name  %>
+  <% } %> -->
+
+      <!-- if with condition -->
+      <!-- <% if(id==10) { %>
+  This is 10
+  <% } %> -->
+
+      <!-- if else -->
+      <!-- <% if(id==10) { %>
+  This is 10
+  <% } else { %>
+  This is not 10
+  <% } %> -->
+
+      <!-- if else if -->
+      <!-- <% if(id==10) { %>
+  This is 10
+  <% } else if (id == 11){ %>
+  This is 11
+  <% } else { %>
+  Other
+  <% } %> -->
+
+      <!-- for Loop -->
+      <!-- <% for(i=0; i<=4; i++) { %>
+  <%= i %>
+  <%= marks[i] %>
+  <% } %> -->
+
+      <!-- for in Loop -->
+      <!-- <% for(const key in marks){ %>
+  <%= key %>
+  <%= marks[key] %>
+  <% }  %> -->
+
+      <!-- for of Loop -->
+      <!-- <% for (const mark of marks) { %>
+  <%= mark %>
+  <% } %> -->
+
+      <!-- while Loop -->
+      <!-- <% var i=0;  %>
+  <% while(i<=4){%>
+  <%= i %>
+  <%= marks[i] %>
+  <% i++ %>
+  <% } %> -->
+
+      <!-- forEach Loop -->
+      <!-- <%  marks.forEach((value)=>{ %>
+  <%= value %>
+  <% }) %> -->
+
+      <!-- Function Call -->
+      <!-- <% var current = new Date();  %>
+  <%= current %> -->
+    </h1>
+  </body>
+</html>

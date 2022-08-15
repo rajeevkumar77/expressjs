@@ -1,0 +1,20 @@
+{
+  "name": "ch23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^5.0.0-beta.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
